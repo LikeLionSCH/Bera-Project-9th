@@ -1,0 +1,37 @@
+  .centertop {
+    margin: 100px 0px 70px 0px;
+  }
+
+  .firstpageLogo {
+    width: 270px;
+    height: 270px;  
+  }
+
+  .centerbottom button{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .testbutton {
+      margin-bottom: 20px;
+      border: outset 3px #e57e89;
+      text-decoration: none;
+      color: #e57e89;
+      padding: 5px 22px;
+      font-size: 25px;
+  }
+  
+  .flavorbutton {
+    border-bottom: 20px;
+    border: outset 3px #e57e89;
+    text-decoration: none;
+    color: #e57e89;
+    padding: 5px 47px;
+    font-size: 25px;
+} 
+
+  .testbutton:hover, .flavorbutton:hover {
+    background-color: #f5cad2;
+    box-shadow:0.5px 0.5px #5c5c5c;
+}
