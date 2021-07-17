@@ -1,6 +1,5 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Question
-from django.http import HttpResponseRedirect
 from django.core.paginator import Paginator
 # Create your views here.
 
@@ -12,5 +11,3 @@ def question(request):
 
     if int(page_number) <= questions.count():
         return render(request, 'question.html', {'page': page})
-    else:
-        return redirect('home')
