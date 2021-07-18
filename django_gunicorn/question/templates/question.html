@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>베라</title>
+    </head>
+    <body>
+        {% for question in page %}
+            <p>Q. {{ question.question }}</p>
+            <a href='?page={{ page.next_page_number }}'>
+                <button name="answer" value="1">{{ question.answer1 }}</button>
+                <button name="answer" value="2">{{ question.answer2 }}</button>
+            </a>
+        {% endfor %}
+        hello
+    </body>
+</html>
